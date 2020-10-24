@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>
+      ACC - Android</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="images/favicon/site.webmanifest">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <script src="https://kit.fontawesome.com/21d258f8b8.js" crossorigin="anonymous"></script>
+
+
+
+  
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//db.onlinewebfonts.com/c/2d57f676e3d6955778fb8acac0176b9a?family=Eina01-Bold" rel="stylesheet" type="text/css"/>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+
+</head>
+<body>
+    <section class="section showcase">
+        <div class="container">
+            <div class="logo">
+                <img onclick="location.href='index.html'" src="images/android kit katgf.png" alt="The Android Code Club Logo">
+            </div>
+            <div class="one-liner">
+                <center>
+                    <h1>It’s not a bug – it’s an undocumented feature.</h1>
+
+                </center>
+                
+                <center>
+                    <h6>The bot is currently being revamped. Check back soon.</h6>
+                </center>
+            </div>
+            <br>
+            <center>
+                <div class="buttons">
+                    <button id="myBtn" >Join Our Mailing list</button>
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p style="color: black;  ">Great! let's get you set up</p>
+                            <form 
+                            action="https://formspree.io/f/mdopgwlg"
+                            method="POST">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                            <label for="email-address">Email Address</label>
+                            <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                            <br>
+                            <br>
+                            <br>
+                            
+                            <!-- your other form fields go here -->
+                          
+                            <button type="submit">Done</button>
+                          </form>
+
+                        </div>
+                    
+                    </div>
+                    <button onclick="location.href='about.html'">About Us</button>
+                </div>
+            </center>
+            <script>
+                // Get the modal
+                var modal = document.getElementById("myModal");
+            
+                // Get the button that opens the modal
+                var btn = document.getElementById("myBtn");
+            
+                // Get the <span> element that closes the modal
+                var span = document.getElementsByClassName("close")[0];
+            
+                // When the user clicks on the button, open the modal
+                btn.onclick = function() {
+                modal.style.display = "block";
+                }
+            
+                // When the user clicks on <span> (x), close the modal
+                span.onclick = function() {
+                modal.style.display = "none";
+                }
+            
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+                } 
+              </script>
+
+        </div>
+    </section>
+    <section id="contact">
+        <div id="social-platforms">
+            <div> 
+                <a class="tooltip" href="404.html" data-title="Twitter"><i class="fa fa-twitter"></i><span>Twitter</span></a>
+                
+                <a class="tooltip" href="404.html" data-title="LinkedIn"><i class="fa fa-linkedin"></i><span>LinkedIn</span></a>
+                
+                <a class="tooltip" href="404.html" data-title="Instagram"><i class="fa fa-instagram"></i><span>Instagram</span></a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
