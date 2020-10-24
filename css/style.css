@@ -4,12 +4,12 @@
 /* @import url(https://db.onlinewebfonts.com/c/2d57f676e3d6955778fb8acac0176b9a?family=Eina01-Bold); */
 
 @font-face {font-family: "Eina01-Bold";
-    src: url("2d57f676e3d6955778fb8acac0176b9a.eot"); /* IE9*/
-    src: url("2d57f676e3d6955778fb8acac0176b9a.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("2d57f676e3d6955778fb8acac0176b9a.woff2") format("woff2"), /* chrome、firefox */
-    url("2d57f676e3d6955778fb8acac0176b9a.woff") format("woff"), /* chrome、firefox */
-    url("2d57f676e3d6955778fb8acac0176b9a.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url("2d57f676e3d6955778fb8acac0176b9a.svg#Eina01-Bold") format("svg"); /* iOS 4.1- */
+    src: url("../fonts/2d57f676e3d6955778fb8acac0176b9a.eot"); /* IE9*/
+    src: url("../fonts/2d57f676e3d6955778fb8acac0176b9a.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../fonts/2d57f676e3d6955778fb8acac0176b9a.woff2") format("woff2"), /* chrome、firefox */
+    url("../fonts/2d57f676e3d6955778fb8acac0176b9a.woff") format("woff"), /* chrome、firefox */
+    url("../fonts/2d57f676e3d6955778fb8acac0176b9a.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("../fonts/2d57f676e3d6955778fb8acac0176b9a.svg#Eina01-Bold") format("svg"); /* iOS 4.1- */
   }
 /* 
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
