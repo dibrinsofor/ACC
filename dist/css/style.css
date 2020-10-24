@@ -1,0 +1,214 @@
+/* @font-face{
+    font-family: "Eina";
+} */
+
+@font-face {font-family: "Eina01-Bold";
+    src: url("2d57f676e3d6955778fb8acac0176b9a.eot"); /* IE9*/
+    src: url("2d57f676e3d6955778fb8acac0176b9a.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("2d57f676e3d6955778fb8acac0176b9a.woff2") format("woff2"), /* chrome、firefox */
+    url("2d57f676e3d6955778fb8acac0176b9a.woff") format("woff"), /* chrome、firefox */
+    url("2d57f676e3d6955778fb8acac0176b9a.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("2d57f676e3d6955778fb8acac0176b9a.svg#Eina01-Bold") format("svg"); /* iOS 4.1- */
+  }
+/* 
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300); */
+
+html {
+    background-color: black;
+    font-family:"Eina01-Bold";
+    font-style:normal;
+    position: relative;
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.showcase{
+    position: relative;
+}
+
+.logo {
+    margin: auto;
+    width: 50%;
+    height: auto;
+    /* border: 3px solid green; */
+    margin-top: 10%;
+
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+
+}
+
+.buttons {
+    margin:0;
+    width: 50%;
+    height: auto;
+    /* border: 3px solid green; */
+}
+.buttons button{
+    color: black;
+    background-color: white;
+    width: 200px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+h1 {
+    font-family:"Eina01-Bold";
+    font-size:50px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: white;
+    text-align: center;
+}
+h6 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+p{
+  color: white;
+}
+.emailtojoin{
+  width: auto;
+  color: orange;
+  font-weight: bolder;
+}
+
+/* stupid weird footer that hovers */
+#social-platforms {
+  position:relative;
+  top:100px;
+  top:25vh;
+  font-size:1rem;
+  text-align:center;
+  height:175px;
+  overflow:hidden;
+}
+
+#social-platforms a {
+  background:black;
+  text-align:center;
+  position:relative;
+  display:inline-block;
+  width:30px;
+  height:30px;
+  font-size:1.75em;
+  color:white;
+  line-height:1.15em;
+  border:0;
+  cursor:pointer;
+  margin:4px;
+  padding:10px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.35);
+  border-radius:0 10px 10px 10px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+}
+
+#social-platforms a span {
+  display:none;
+}
+
+#social-platforms a:after {
+  opacity:0;
+  font-size:.5em;
+  font-weight:300;
+  color:#FFF;
+  background:#000;
+  content:attr(data-title);
+  white-space:nowrap;
+  display:block;
+  position:absolute;
+  left:0;
+  bottom:60px;
+  z-index:-5;
+  cursor:help;
+  padding:3px 8px;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+}
+
+#social-platforms a:before {
+  opacity:0;
+  display:block;
+  position:absolute;
+  bottom:55px;
+  left:50%;
+  margin-left:-5px;
+  z-index:9;
+  cursor:help;
+  content:'';
+  width:0;
+  height:0;
+  border-left:5px solid transparent;
+  border-right:5px solid transparent;
+  border-top:5px solid #000;
+  -webkit-transition:all .5s;
+  -moz-transition:all .5s;
+  transition:all .5s;
+  }
+
+#social-platforms a:hover {
+  background:#2196f3;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.45);
+  }
+  
+#social-platforms a:hover:before, #social-platforms a:hover:after {
+  opacity:1;
+  z-index:50;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal-content p{
+  color: black;
+  font-family: "Eina01-Bold";
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* The Close Button */
+.close {
+  color: orange;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+} 
